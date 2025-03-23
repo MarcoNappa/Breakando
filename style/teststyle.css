@@ -1,23 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Digital Artist Marco Mastrangelo</title>
-    <link rel="stylesheet" type="text/css" href="style/teststyle.css">
-</head>
-<body>
+body{
+    display: flex;
+    flex-direction: column;
+}
+#profileimg{
+    border-color: black;
+    border-width: 25px;
+    border-style: outset;
+}
+.intro{
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    display: flex;
 
-    <div class="intro">
-        <img id="profileimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57b6Fl7liVxS9VuM6C-6cAL_obVmzkGkaeA&s">
-        <p>Digital Artist & Web Dev</p>
-    </div>
-
-    <div class="intromsg">
-        <h1>
-            Ciao, benvenuto
-        </h1>
-        <p>Mi chiamo marco e sono un Neo Digital artist e Front-End Web Developer</p>
-    </div>
-        
-</body>
-</html>
+}
+.intromsg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+    color: brown;
+}
