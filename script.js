@@ -1,16 +1,20 @@
 
 alert("Io sono un new Web Dev :)");
 
-prompt("Mi raccomando scrivi 'permesso' per entrare, educazione prima di tutto");
+var nomeutente = prompt("inserisci il tuo nome qui ");
 
-var saluto = ("Entra pure amico/a mio/a");
-
-alert(saluto);
-
-var saluto ="bravo/a ed eductao/a";
-
-alert(saluto);
-
-var nomeutente = prompt("Come ti chiami?");
 var messaggio = "Ciao " + nomeutente + " benvenuto nella mia pagina Portfolio";
-document.write (messaggio);
+
+var permesso = prompt("Mi raccomando scrivi 'permesso' per entrare, educazione prima di tutto");
+
+var ricarica = alert("Ricarica la pagina!!!!!!");
+var ricarica = ReferenceError("ricarica pagina")
+
+if (permesso =="permesso"){
+    let (messaggio)
+}  else {
+    let (ricarica)}
+
+
+
+var inizio;
